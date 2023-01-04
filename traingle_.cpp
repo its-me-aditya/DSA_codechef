@@ -8,10 +8,9 @@ int main() {
     while(t--){
         int a,b,c;
         cin>>a>>b>>c;
-        int ans=180;
-        ans=a+b+c;
+       
         
-        if(a+b+c==180){
+        if((a+b+c)==180){
             cout<<"Yes"<<endl;
             
         }
